@@ -8,7 +8,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #F0EFE7;
-    color: #f5f6f7;
+    color: #D7ADE3;
 }
 
 h1 {
@@ -24,18 +24,14 @@ img {
 }
 
 /* LINKS */
-  a {
-    color: #FFF5AC;
-  }
-
   a:visited {
-    color: #FFF5AC;
-  }
-  
-  a:hover {
     color: #FFBBC9;
   }
   
+  a:hover {
+    color: #D7ADE3;
+  }
+  
   a:active {
-    color: #FFF5AC;
+    color: #FFBBC9;
   }

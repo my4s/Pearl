@@ -24,6 +24,10 @@ img {
 }
 
 /* LINKS */
+  a {
+    color: #FFF5AC;
+  }
+
   a:visited {
     color: #FFF5AC;
   }

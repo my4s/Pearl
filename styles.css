@@ -1,18 +1,46 @@
-body {
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #F0EFE7;
-    color: #D7ADE3;
+/* HEADER */
+header {
+  width: 100%;
+  height: 115px;
+  margin: none;
+  background-color: #F3F3EC;
+  color: #c89ad4;
+  word-spacing: 5px;
+  text-align: center;
+  border-top: 2.5px solid #ececdb;
+  border-bottom: 2.5px solid #ececdb;
 }
 
 h1 {
-    text-align: center;
-    color: #c89ad4;
-    background-color: #FFD8B0;
-    font-family:'Times New Roman', Times, serif;
-    letter-spacing: 1px;
+  border: none;
+  padding: none;
+  margin: none;
+  color: #c89ad4;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+
+.heading_tabs {
+  border: none;
+  padding: none;
+  font-size: 20px;
+  margin: none;
+}
+
+
+
+/* MAIN */
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #F0EFE7;
+    border: none;
+    padding: none;
+    color: #D7ADE3;
 }
 
 img {
@@ -21,9 +49,50 @@ img {
   margin-right: auto;
 }
 
+h2 {
+  text-align: left;
+  color: #c89ad4;
+  background-color: #FFD8B0;
+  border: none;
+  padding: none;
+  padding-top: 1em;
+  font-size: 42.5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  height: 100px;
+  margin: none;
+}
+
+p {
+  padding: none;
+  width: 75%;
+  margin: 0 auto;
+  word-spacing: 1.5px;
+  font-weight: 600;
+}
+
 /* FOOTER */
 
+.padding {
+  padding-bottom: 35em;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin: none;
+  background-color: #fff;
+  word-spacing: 5px;
+  text-align: center;
+  border-bottom: 2.5px solid #f8f8f8;
+}
+
+
+
 /* LINKS */
+a {
+  color: #FFBBC9;
+}
   a:visited {
     color: #FFBBC9;
   }
